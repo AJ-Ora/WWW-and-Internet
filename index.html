@@ -32,7 +32,15 @@
 		
 		<button type="button" onclick="GetTime()">Get date</button>
 		<button type="button" onclick="HelloWorld()">Say hello to the world!</button>
+		<button type="button" onclick="GetRandomNumber()">Get a random number</button>
 		<p id="demo"></p>
 		
+		<p>Drag and drop some stuff</p>
+		
+		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<img src="https://vignette.wikia.nocookie.net/prodigy-math-game/images/8/87/Trollface_%282%29.jpg/revision/latest?cb=20171113052318" draggable="true" ondragstart="drag(event)" id="drag1" width="30" height="30">
+		</div>
+		<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+		<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 	</body>
 </html>
