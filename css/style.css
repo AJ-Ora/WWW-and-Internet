@@ -2,6 +2,12 @@ body {
 	text-align: left;
 }
 
+table, th, td {
+	padding: 4px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
 #div1, #div2, #div3 {
     float: left;
     width: 35px;
