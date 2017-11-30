@@ -7,11 +7,12 @@ body {
 	background-color: #000000;
 	font-family: 'SaniTrixieSansRegular';
 	font-weight: normal;
-	font-style: normal; 
+	font-style: normal;
+	font-size: 18px;
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 56px;
 }
 
 h2 {
