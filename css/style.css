@@ -1,5 +1,8 @@
 body {
-	text-align: left;
+	background-color: #D1F1FF;
+	font-family: 'SaniTrixieSansRegular';
+	font-weight: normal;
+	font-style: normal; 
 }
 
 table, th, td {
@@ -15,4 +18,37 @@ table, th, td {
     margin: 10px;
     padding: 10px;
     border: 2px solid black;
+}
+
+div.header {
+	background-color: #333333;
+	width: 60%;
+	height: 150px;
+	margin: 0 auto;
+}
+
+div.footer {
+	background-color: #333333;
+	width: 60%;
+	height: 150px;
+	margin: 0 auto;
+}
+
+div.centerbox {
+	background-color: #FFFFFF;
+    width: 60%;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+
+div.container {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+h2 {
+	font-size: 24px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #333333;
 }

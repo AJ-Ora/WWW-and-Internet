@@ -23,3 +23,17 @@ function drop(ev) {
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
 }
+
+function validateForm() {
+	if (document.forms["myForm"]["name"].value==null || document.forms["myForm"]["name"].value=="")
+	{
+		alert("Name must be filled out!");
+		return false;
+	}
+	if (document.forms["myForm"]["email"].value==null || document.forms["myForm"]["email"].value=="")
+	{
+		alert("Email must be filled out!");
+		return false;
+	}
+	return true;
+}
