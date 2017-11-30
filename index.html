@@ -10,51 +10,89 @@
 	<body>
 		<div class=header></div>
 		<div class=centerbox>
-		<div class=container>
-		<h1>Hello world!</h1>
-		
-		<h2> Creating a list</h2>
-		You can see a list below:
-		<ul>
-			<li>Stuff</li>
-			<li>More stuff</li>
-			<li>Even more stuff</li>
-		</ul>
-		
-		<h2>Adding an image</h2>
-		<img src="https://media.giphy.com/media/26FPCXdkvDbKBbgOI/giphy.gif" alt="Cats" width="230" height="200"> <br>
-		
-		<h2>Adding a table</h2>
-		<table>
-			<tr>
-				<td>Stuff</td>
-				<td>Stuff</td>
-			</tr>
-			<tr>
-				<td>Stuff</td>
-				<td>More stuff</td>
-			</tr>
-		</table><br>
-		
-		<button type="button" onclick="GetTime()">Get date</button>
-		<button type="button" onclick="HelloWorld()">Say hello to the world!</button>
-		<button type="button" onclick="GetRandomNumber()">Get a random number</button>
-		<p id="demo"></p>
-		
-		<p>Drag and drop some stuff</p>
-		
-		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-			<img src="https://vignette.wikia.nocookie.net/prodigy-math-game/images/8/87/Trollface_%282%29.jpg/revision/latest?cb=20171113052318" draggable="true" ondragstart="drag(event)" id="drag1" width="30" height="30">
-		</div>
-		<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-		<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-		
-		<br><br>
-		<h2></h2>
-		asd
-		
-		</div>
-		</div>
+			<div class=container>
+				<h1>Welcome!</h1>
+				<h2>What is this page?</h2>
+				This page was made for an internet course, mainly to create a page used for a portfolio or something similar.
+				But I got bored and made it about memes and stuff.
+				
+				<h2> Creating a list</h2>
+				You can see an unordered list below.
+				
+				<ul>
+					<li>Stuff</li>
+					<li>More stuff</li>
+					<li>Even more stuff</li>
+				</ul>
+				
+				And here's an ordered one.
+				
+				<ol>
+					<li>Stuff</li>
+					<li>More stuff</li>
+					<li>...I think you get the point.</li>
+				</ol>
+				
+				<h2>Adding an image</h2>
+				
+				<div class="polaroid">
+					<img src="https://media.giphy.com/media/26FPCXdkvDbKBbgOI/giphy.gif" alt="Cats" width="250" height="220"> <br>
+					<div class="polaroidtext">
+						<p>Whoosh!</p>
+					</div>
+				</div>
+				
+				<h2>Adding a table</h2>
+				<table>
+					<tr>
+						<td>Stuff</td>
+						<td>Stuff</td>
+					</tr>
+					<tr>
+						<td>Stuff</td>
+						<td>More stuff</td>
+					</tr>
+				</table>
+				
+				<h2>Get random info</h2>
+				<button type="button" onclick="GetTime()">Get date</button>
+				<button type="button" onclick="HelloWorld()">Say hello to the world!</button>
+				<button type="button" onclick="GetRandomNumber()">Get a random number</button>
+				<p id="randominfo"></p>
+				
+				<h2>Drag and drop</h2>
+				Drag the face into the other boxes. Why? Because why not!
+				<br>
+				
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+					<img src="images/kappa.png" draggable="true" ondragstart="drag(event)" id="drag1" width="35" height="35">
+				</div>
+				<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br><br><br>
+				
+				<h2>Give your personal information for the greater good</h2>
+				<form name="myForm" onsubmit="return validateForm()" >
+					<table>
+						<tr>
+							<td>Name</td>
+							<td><input type="text" name="name" /></td>
+						</tr>
+						<tr>
+							<td>E-mail</td>
+							<td><input type="text" name="email" /></td>
+						</tr>
+					</table>
+					<br>
+					<input type="submit" value="Click to Submit" />
+				</form>
+				
+				<h2>Listen to some tunes</h2>
+				<iframe width="300" height="300" src="https://www.youtube-nocookie.com/embed/cU8HrO7XuiE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				<br><br>
+				
+				</div>
+			</div>
 		<div class=footer></div>
 	</body>
 </html>

@@ -1,13 +1,13 @@
 function GetTime() {
-    document.getElementById("demo").innerHTML = Date();
+    document.getElementById("randominfo").innerHTML = Date();
 }
 
 function HelloWorld() {
-	document.getElementById("demo").innerHTML = "Hello world!";
+	document.getElementById("randominfo").innerHTML = "Hello world!";
 }
 
 function GetRandomNumber() {
-	document.getElementById("demo").innerHTML = Math.random();
+	document.getElementById("randominfo").innerHTML = Math.random();
 }
 
 function allowDrop(ev) {

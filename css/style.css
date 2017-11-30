@@ -1,8 +1,24 @@
 body {
-	background-color: #D1F1FF;
+	background-image: url("../images/space.jpg");
+	background-size: auto 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: #000000;
 	font-family: 'SaniTrixieSansRegular';
 	font-weight: normal;
 	font-style: normal; 
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 24px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #000000;
 }
 
 table, th, td {
@@ -21,34 +37,40 @@ table, th, td {
 }
 
 div.header {
-	background-color: #333333;
+	background-color: #111111;
 	width: 60%;
-	height: 150px;
+	height: 70px;
 	margin: 0 auto;
 }
 
 div.footer {
-	background-color: #333333;
+	background-color: #111111;
 	width: 60%;
-	height: 150px;
+	height: 70px;
 	margin: 0 auto;
 }
 
 div.centerbox {
-	background-color: #FFFFFF;
+	background: rgb(255,255,255); /*IE compatibility*/
+	background: rgba(255,255,255,.8);
     width: 60%;
 	margin: 0px auto;
 	padding-top: 20px;
 }
 
 div.container {
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 70px;
+	padding-right: 70px;
 }
 
-h2 {
-	font-size: 24px;
-	padding-top: 20px;
+div.polaroid {
+	display: inline-block;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.polaroidtext {
+    text-align: center;
 	padding-bottom: 5px;
-	border-bottom: 2px solid #333333;
 }
